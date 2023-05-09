@@ -1,0 +1,14 @@
+class Coche {
+    public int puertas;
+    
+    public Coche(int numPuertas) {
+        this.puertas = numPuertas;
+    }
+    
+    public void IncrementarPuertas() {
+        this.puertas++;
+    }
+}
+
+Coche miCoche = new Coche(3); //Creación de un objeto de la clase Coche con 3 puertas
+miCoche.IncrementarPuertas(); //Llamado a la función que incrementa el número de puertas
