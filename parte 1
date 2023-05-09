@@ -1,0 +1,6 @@
+public static int suma(int a, int b, int c) {
+    int resultado;
+    resultado = a + b + c;
+    System.out.println("El resultado de la suma es: "+resultado);
+    return resultado;
+}
